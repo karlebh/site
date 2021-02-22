@@ -1,0 +1,143 @@
+body {
+	/*font-family: 'Akaya Telivigala', cursive;*/
+	/*font-family: 'Merienda', cursive;*/
+	/*font-family: 'Noto Sans', sans-serif;*/
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	background: var(--bg-black);
+	color: var(--bg-white);
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-content: center;
+	margin: 0 0 2rem 0;
+	background-color: teal;
+	padding-bottom: 3rem;
+	justify-content: space-between;
+}
+
+.desktopNav {
+	display: none;
+}
+
+.desktopNav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 4rem;
+}
+
+.desktopNav ul li {
+	margin: 0 1rem;
+	cursor: pointer;
+	transition: .6s ease-in;
+}
+
+.desktopNav a, a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+	letter-spacing: .5px;
+	font-family: 'Akaya Telivigala', cursive;
+}
+
+.desktopNav ul li:nth-child(1) {
+	transform: translateY(-8px);
+}
+
+.desktopNav ul li:nth-child(3) {
+	transform: translateY(-8px);
+}
+
+.desktopNav ul li:nth-child(3):hover {
+	transform: translateY(-2px);
+}
+
+.desktopNav ul li:nth-child(1):hover {
+	transform: translateY(-2px);
+}
+
+.desktopNav ul li:nth-child(2):hover {
+	transform: translateY(-6px);
+}
+
+.desktopNav ul li:nth-child(4):hover {
+	transform: translateY(-6px);
+}
+
+#name {
+	padding: 0 1rem 0;
+	font-family: 'Akaya Telivigala', cursive;
+	color: white;
+}
+
+.mobileNav {
+	width: 100%;
+	background: rgba(100, 100, 100);
+	position: fixed;
+	z-index: 10;
+	overflow-x: hidden;
+	transition: height .3s;
+}
+
+.h-0 {
+	height: 0;
+}
+
+.h-100 {
+	height: 100%;
+}
+
+.mobileNav ul {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-top: 20px;
+	justify-content: center;
+	align-content: center;
+}
+
+.mobileNav ul li {
+	background: gray;
+	width: 100%;
+	text-align: center;
+	margin: 1.3rem 0;
+	padding: 15px;
+}
+
+#close {
+	color: white;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+	#hambuger {
+		display: none;
+	}
+
+	.mobileNav {
+		display: none;
+	}
+
+	.desktopNav {
+		display: block;
+		margin-right: 70px;
+	}
+
+	#name {
+		margin: 3rem 0 0 7rem;
+	}
+}
