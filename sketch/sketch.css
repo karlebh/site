@@ -1,0 +1,74 @@
+.block {
+	display: block;
+}
+
+.font2Xl {
+	font-size: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	padding: 0 .5rem;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+#Hero {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+}
+
+#aboutMe {
+	padding: 0.8rem;
+	text-align: justify;
+}
+
+#contactForm {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.portfolios {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  /*grid-gap: 10px;*/
+	  justify-content: center;
+	  align-items: center;
+  }
+
+  @media screen and (max-width: 760px) {
+  	.portfolios {
+  		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+  	}
+  }
+
+.card {
+	width: 300px;
+	height: 300px;
+	border-radius: 15px 40px;
+	background: gray;
+	margin: 3rem;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+footer {
+	text-align: center;
+}
