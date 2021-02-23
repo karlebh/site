@@ -9,12 +9,16 @@ section {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	padding: 2rem 0;
+	padding: 2rem;
+}
+
+#hero div {
+	margin: auto 0;
 }
 
 img {
-	width: 500px;
-	height: 500px;
+	width: 350px;
+	height: 400px;
 }
 
 /* Very Small Screen */
@@ -40,10 +44,14 @@ img {
 		justify-content: center;
 	}
 
+	#hero div {
+		margin: auto;
+	}
+
 	img {
 		margin: auto;
-		width: 400px;
-		height: 400px;
+		width: 300px;
+		height: 300px;
 	}
 
 	#hero h2 {
