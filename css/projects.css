@@ -1,0 +1,14 @@
+#projects {
+	display: flex;
+	flex-direction: column;
+/*	justify-content: center;
+	align-items: center;*/
+}
+
+#projects div {
+	margin: 20px auto;
+	height: 200px;
+	width: 200px;
+	background: #bbb;
+
+}

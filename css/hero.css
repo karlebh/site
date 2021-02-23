@@ -1,0 +1,53 @@
+
+section {
+	display: grid;
+	padding: 3px 8px;
+	overflow-x: hidden;
+}
+
+#hero {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 2rem 0;
+}
+
+img {
+	width: 500px;
+	height: 500px;
+}
+
+/* Very Small Screen */
+@media screen and (max-width: 420px) {
+	#hero h2 {
+		font-size: 20px;
+		text-align: justify;
+		padding-left: 2px;	
+	}
+
+	img {
+		margin: auto;
+		width: 250px;
+		height: 250px;
+	}
+}
+
+/* Monile Screen */
+@media screen and (max-width: 768px) {
+	#hero {
+		/*display: flex;*/
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	img {
+		margin: auto;
+		width: 400px;
+		height: 400px;
+	}
+
+	#hero h2 {
+		
+	}
+}
+

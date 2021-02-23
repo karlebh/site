@@ -3,3 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Merienda&family=Noto+Sans&family=Poppins&family=Roboto&display=swap');
 @import 'header.css';
 @import 'utility.css';
+@import 'hero.css';
+@import 'footer.css';
+@import 'aboutMe.css';
+@import 'projects.css';
+@import 'contact.css';
+
+body {
+	/*font-family: 'Akaya Telivigala', cursive;*/
+	/*font-family: 'Merienda', cursive;*/
+	/*font-family: 'Noto Sans', sans-serif;*/
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+
+
+/*p {
+	background: var(--bg-black);
+	color: var(--bg-white);
+	font-family: 'Akaya Telivigala', cursive;
+}*/
