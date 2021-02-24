@@ -1,5 +1,7 @@
 
 #aboutMe {
+	display: flex;
+	flex-direction: column;
 	text-align: justify;
 	padding: 1rem;
 }
