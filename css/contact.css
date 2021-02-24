@@ -1,5 +1,5 @@
-#contact {
-	display: grid;
+#contactContainer {
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 0 40px 0;
@@ -7,23 +7,29 @@
 	color: white;
 	width: 100%;
 	font-family: 'Merienda', cursive;
+	text-align: center;
 }
 
-#contactForm label, input[type="submit"] {
-	font-family: 'Merienda', cursive;
-	/*font-family: 'Akaya Telivigala', cursive;*/
-	font-weight: bold;
+form {
+	display:  inline-block;
 }
 
 input, textarea {
-	width: 100%;
+	width: 80%;
 	padding: .7rem;
 	border-radius: 6px 17px;
 	outline: none;
 	font-family: 'Poppins', sans-serif;
 	color: teal;
-	margin: 0;
 }
+
+/*
+#contactForm label, input[type="submit"] {
+	font-family: 'Merienda', cursive;
+	font-weight: bold;
+}
+
+
 
 input:focus, textarea:focus {
 	border-radius: 6px 17px;
@@ -34,10 +40,6 @@ input:focus, textarea:focus {
 	#contactForm {
 		width: 700px;
 	}
-
-	input, textarea {
-		width: 70%;
-	}
 }
 
 @media screen and (min-width: 420px) {
@@ -45,8 +47,6 @@ input:focus, textarea:focus {
 		border: 0 10px;
 	}
 
-	input, textarea {
-		width: 60%;
-	}
-
 }
+
+*/
