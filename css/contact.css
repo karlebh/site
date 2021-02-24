@@ -7,11 +7,13 @@
 	color: white;
 	width: 100%;
 	font-family: 'Merienda', cursive;
-	text-align: center;
 }
 
 form {
+	padding-top: 20px; 
+	text-align: center;
 	display:  inline-block;
+	/*margin: 0 auto;*/
 }
 
 input, textarea {
@@ -23,7 +25,7 @@ input, textarea {
 	color: teal;
 }
 
-/*
+
 #contactForm label, input[type="submit"] {
 	font-family: 'Merienda', cursive;
 	font-weight: bold;
@@ -49,4 +51,3 @@ input:focus, textarea:focus {
 
 }
 
-*/
