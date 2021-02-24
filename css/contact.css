@@ -1,0 +1,36 @@
+#contact {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	padding: 0 0 40px 0;
+	background: teal;
+	color: white;
+	width: 100%;
+	font-family: 'Merienda', cursive;
+}
+
+#contactForm label, input[type="submit"] {
+	font-family: 'Merienda', cursive;
+	/*font-family: 'Akaya Telivigala', cursive;*/
+	font-weight: bold;
+}
+
+input, textarea {
+	width: 100%;
+	padding: .7rem;
+	border-radius: 6px 17px;
+	outline: none;
+	font-family: 'Poppins', sans-serif;
+	color: teal;
+}
+
+input:focus, textarea:focus {
+	border-radius: 6px 17px;
+	box-shadow: 0 0 0 2PX gray;
+}
+
+@media screen and (min-width: 768px) {
+	#contactForm {
+		width: 700px;
+	}
+}

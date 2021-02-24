@@ -1,6 +1,7 @@
 #projects {
 	display: flex;
 	flex-direction: column;
+	padding: 20px 0;
 /*	justify-content: center;
 	align-items: center;*/
 }
