@@ -15,33 +15,43 @@
 </head>
 <body>
 
-	<header>
+	<header id="header">
 		<h1 id="name">Tesan20</h1>
 
-		<div style="margin-top: 10px;" id="hambuger">
+		<div id="hambuger">
 			<svg xmlns="http://www.w3.org/2000/svg" id="hambuger" width="70" height="50" viewBox="0 0 24 24" 
-			style="fill:white;transform:scaleX(-1);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);"><path d="M4 11h6c.553 0 1-.447 1-1V4c0-.553-.447-1-1-1H4C3.447 3 3 3.447 3 4v6C3 10.553 3.447 11 4 11zM14 11h6c.553 0 1-.447 1-1V4c0-.553-.447-1-1-1h-6c-.553 0-1 .447-1 1v6C13 10.553 13.447 11 14 11zM4 21h6c.553 0 1-.447 1-1v-6c0-.553-.447-1-1-1H4c-.553 0-1 .447-1 1v6C3 20.553 3.447 21 4 21zM17 21c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4S14.794 21 17 21z"></path></svg>
+			style="fill:white;transform:scaleX(-1);-ms-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);">
+				<path d="M4 11h6c.553 0 1-.447 1-1V4c0-.553-.447-1-1-1H4C3.447 3 3 3.447 3 4v6C3 10.553 3.447 11 4 11zM14 11h6c.553 0 1-.447 1-1V4c0-.553-.447-1-1-1h-6c-.553 0-1 .447-1 1v6C13 10.553 13.447 11 14 11zM4 21h6c.553 0 1-.447 1-1v-6c0-.553-.447-1-1-1H4c-.553 0-1 .447-1 1v6C3 20.553 3.447 21 4 21zM17 21c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4S14.794 21 17 21z">
+				</path>
+			</svg>
 		</div>
 
 		<nav class="desktopNav">
 			<ul>
-				<li><a href="#">Home</a></li>
 				<li><a href="#">Resume</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#">Hire Me</a></li>
+				<li><a href="#aboutMe">About Me</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#projects">Projects</a></li>
 			</ul>
 		</nav>		
 		
 		<nav class="mobileNav h-0">
 				<a href="javascript:void(0)" id="close" title="Close Menu">&times;</a>
-				<a href="#">Home</a>
 				<a href="#">Resume</a>
-				<a href="#">Contact</a>
-				<a href="#">Hire Me</a>
+				<a href="#aboutMe">About Me</a>
+				<a href="#contact">Contact</a>
+				<a href="#projects">Projects</a>
 		</nav>
 	</header>
 
 	<section>
+		<!-- Go up fixed div -->
+		<a class="opacity-0" href="#header">
+			<div class="goUp">
+				<p>Go Up</p>
+			</div>
+		</a>
+
 		<div id="hero">
 			<div>
 				<h2>
@@ -56,8 +66,10 @@
 					<i class='bx bxl-twitter tblue'></i>
 					<i class='bx bxl-github github'></i>
 					<i class='bx bxl-linkedin linkedIn'></i>
-
 				</div>
+
+				<div id="contactMe"><a href="#contact">Contact Me</a></div>
+
 			</div>
 			<br><br>
 			<div class="image">
@@ -76,32 +88,80 @@
 		</div>
 
 		<!--  -->
-		<div id="projects">
 
+		<div id="projects">
 			<h1 class="styled text-center">Projects I Have Done</h1>
-			<div></div>
-			<div></div>
-			<div></div>
+			<div>
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+
+		
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+
+		
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+
+		
+				<div>
+					<a href="https://www.google.com" target="_blanck">
+						<p>E Commerce website built with Magento Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nulla asperiores excepturi odio repudiandae, magnam cupiditate eaque. Facilis repellat, esse odit voluptatem dolorum, at perferendis quas, ad possimus accusantium beatae.
+						</p>
+					</a>
+				</div>
+			</div>
 		</div>
 
 		<!--  -->
-		<h1 class="text-center styled" style="color: white;">Reach Out To Me</h1>
 		<br>
-		<div id="contactContainer">
+		<div id="contact" class="contactContainer">
+			<div class="leftDiv loneDisplay">
+				<span>&times;</span>
+				<h1 class="text-center styled" style="color: white;">Reach Out To Me</h1>
+			</div>
+
 			<form action="#" id="contactForm">
+				<h1 class="text-center styled" style="color: white;">Reach Out To Me</h1>
 				<div>
 					<label for="name">Name</label><br><br>
-					<input type="text" name="name" />
+					<input class="input" type="text" name="name" />
 				</div><br>
 
 				<div>
 					<label for="email">Email</label><br><br>
-					<input type="email" name="Email" required />
+					<input class="input" type="email" name="Email" required />
 				</div><br>
 
 				<div>
 					<label for="content">How Can I Help?</label><br><br>
-					<textarea name="content" cols="30" rows="10" required></textarea>
+					<textarea class="input" name="content" cols="30" rows="10" required></textarea>
 				</div><br>
 
 				<div>
@@ -113,7 +173,9 @@
 
 	<footer>
 		<div>
-			<h3>Cool Footer &copy; 2021</h3>
+			<h3>Cool Footer &copy; 
+				<span id="fullYear"></span>
+			</h3>
 		</div>
 		<br><br>
 

@@ -1,15 +1,51 @@
 #projects {
-	display: flex;
-	flex-direction: column;
-	padding: 20px 0;
-/*	justify-content: center;
-	align-items: center;*/
+	background-color: #dee;
+	margin-bottom: -1rem;
 }
 
 #projects div {
-	margin: 20px auto;
-	height: 200px;
-	width: 200px;
-	background: #bbb;
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 20px 0;
+	justify-content: center;
+	align-items: center;
+	grid-gap: 50px;
+	margin-bottom: 20px;
+}
 
+#projects div div {
+	margin: 20px auto;
+	height: 300px;
+	width: 400px;
+	/*background: #bbb;*/
+	border-radius: 7px 30px;
+	box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	padding: 1rem;
+	font-family: 'Akaya Telivigala', cursive;
+	font-weight: bold;
+	letter-spacing: .05rem;
+}
+
+#projects div div:nth-child(odd) {
+	background-color: teal;
+	color: white;
+}
+
+#projects div div:nth-child(even) {
+	background-color: #ddd;
+	color: teal;
+}
+
+#projects div div:nth-child(even) a {
+	color: teal;
+}
+
+@media screen and (max-width: 768px) {
+	#projects div {
+		grid-template-columns: auto;
+	}
 }

@@ -9,6 +9,10 @@
 @import 'projects.css';
 @import 'contact.css';
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	/*font-family: 'Akaya Telivigala', cursive;*/
 	/*font-family: 'Merienda', cursive;*/
@@ -29,3 +33,32 @@ section {
 	display: flex;
 	flex-direction: column;
 }
+
+.goUp {
+	background: green;
+	width: 60px;
+	height: 80px;
+	position: fixed;
+	right: 30px;
+	bottom: 50px;
+	background: linear-gradient(to right, #77EED8, #9EABE4);
+	text-align: center;
+	z-index: 100;
+	border-radius: 5px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Akaya Telivigala', cursive;
+	font-weight: 70;
+	transition: opacity 1s ease;
+	color: black;
+}
+
+.opacity-0 {
+	opacity: 0;
+}
+
+.opacity-light {
+	opacity: .8;
+}
+
