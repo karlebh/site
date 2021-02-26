@@ -47,5 +47,13 @@
 @media screen and (max-width: 768px) {
 	#projects div {
 		grid-template-columns: auto;
+		padding: 0;
 	}
+
+	#projects div div {
+		margin: 20px auto;
+		height: 200px;
+		width: 300px;
+	}
+
 }
