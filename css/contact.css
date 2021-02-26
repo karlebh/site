@@ -25,6 +25,10 @@ input, textarea {
 	color: teal;
 }
 
+textarea {
+	resize: none;
+}
+
 
 #contactForm label, input[type="submit"] {
 	font-family: 'Merienda', cursive;

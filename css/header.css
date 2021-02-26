@@ -17,21 +17,6 @@ header {
 	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
-#contactMe {
-	width: 120px;
-	height: 50px;
-	background-color: teal;
-	color: teal;
-	display: flex;
-	border-radius: 9px 15px;
-	box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2), 0 16px 30px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-#contactMe a {
-	margin: auto;
-}
-
 .desktopNav {
 	display: none;
 }
@@ -142,10 +127,5 @@ header {
 
 	#name {
 		margin: 3rem 0 0 7rem;
-	}
-
-	#contactMe {
-		position: relative;
-		left: 50px;
 	}
 }

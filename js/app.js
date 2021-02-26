@@ -63,11 +63,11 @@ function toggleGoUp() {
 	const pageHeight = window.pageYOffset
 
 	switch (true) {
-		case pageYOffset > 1187: 
+		case pageYOffset > 1000: 
 			goUpDiv.parentNode.classList.replace('opacity-0', 'opacity-light')
 			break
 
-		case pageYOffset <= 1186:
+		case pageYOffset <= 1000:
 			goUpDiv.parentNode.classList.replace('opacity-light', 'opacity-0')
 			break
 	} 
